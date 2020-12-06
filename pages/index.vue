@@ -3,14 +3,15 @@ div
   .jumbotron.jumbotron-fluid.bg-children
     .container.text-center
       h1.display-4 すべてのアウトローな子ども達へ
-      p.lead ここにコピーが入りますここにコピーが入りますここにコピーが入りますここにコピーが入ります。
+      p.lead 常識は自分で作る、
   #intro.bg-white
     .container
       .row
         .col-sm-12.col-md-10.offset-md-1.text-center
-          h2 義務教育を受けられない子供たちに自立するための「稼ぐ力」をつけれるアウトローな学校【わっちゃ】
-          p ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
-  #feature.bg-secondary
+          h2.mb-4 「わっちゃ」とは
+          p 学校にいけない子供たちを持つ親御さんの不安を取り除く第一歩として「働き稼ぐ力をつける」学校です。
+          p 既存の支援サービスとの大きな違いは「学校に戻ることを目的としない」支援です。<br>そして「働くことで得られる幸せ」を提供し、義務教育に通えない子供たちにも「稼ぐ力」をつけることを目的とします。
+  //- #feature.bg-secondary
     .container
       .row.mb-5
         .col-md-12.text-center
@@ -115,6 +116,22 @@ div
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  &:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(#000, .3);
+  }
+
+  & > *{
+    position: relative;
+    zi: 10px;
+  }
 }
 
 .bg-secondary{
