@@ -8,7 +8,7 @@ div
     .container
       .row
         .col-sm-12.col-md-10.offset-md-1.text-center
-          h2 ここにテキストが入りますここにテキストが入りますここにテキストが入ります
+          h2 義務教育を受けられない子供たちに自立するための「稼ぐ力」をつけれるアウトローな学校【わっちゃ】
           p ここにテキストが入りますここにテキストが入りますここにテキストが入りますここにテキストが入ります
   #feature.bg-secondary
     .container

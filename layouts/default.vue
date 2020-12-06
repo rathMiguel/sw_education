@@ -2,7 +2,9 @@
   div
     header
       nav.navbar.navbar-dark.bg-dark
-        a.navbar-brand(href='#') わっちゃ（仮）
+        a.navbar-brand(href='#')
+          img(src="~assets/img/logo.png", alt="alt", width="40").mr-2
+          |わっちゃ！
     Nuxt
     footer
       p.text-center: small Copyright (c) Allrights reserved.
