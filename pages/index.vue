@@ -3,7 +3,7 @@ div
   .jumbotron.jumbotron-fluid.bg-children
     .container.text-center
       h1.display-4 すべてのアウトローな子ども達へ
-      p.lead 常識は自分で作る、
+      p.lead 「好きを見つけ、働き、稼ぐ力をつける学校」。新しいタイプの学校「わっちゃ」がまもなく開講します。
   #intro.bg-white
     .container
       .row
@@ -11,30 +11,30 @@ div
           h2.mb-4 「わっちゃ」とは
           p 学校にいけない子供たちを持つ親御さんの不安を取り除く第一歩として「働き稼ぐ力をつける」学校です。
           p 既存の支援サービスとの大きな違いは「学校に戻ることを目的としない」支援です。<br>そして「働くことで得られる幸せ」を提供し、義務教育に通えない子供たちにも「稼ぐ力」をつけることを目的とします。
-  //- #feature.bg-secondary
+  #feature.bg-secondary
     .container
       .row.mb-5
         .col-md-12.text-center
-          h2 「わっちゃ」の特徴
+          h2 子どもが体験できること
       .row
         .col-md-4.col-sm-12
           .feature-photo
             img(src="http://placehold.jp/300x300.png", alt="alt" width="200").image-circle
           .feature-content
-            h4.text-center 特徴が入ります
-            p 本文が入ります本文が入ります本文が入ります本文が入ります
+            h4.text-center １次産業
+            p 農業、林業
         .col-md-4.col-sm-12
           .feature-photo
             img(src="http://placehold.jp/300x300.png", alt="alt" width="200").image-circle
           .feature-content
-            h4.text-center 特徴が入ります
-            p 本文が入ります本文が入ります本文が入ります本文が入ります
+            h4.text-center 2次産業
+            p 製造、建設
         .col-md-4.col-sm-12
           .feature-photo
             img(src="http://placehold.jp/300x300.png", alt="alt" width="200").image-circle
           .feature-content
-            h4.text-center 特徴が入ります
-            p 本文が入ります本文が入ります本文が入ります本文が入ります
+            h4.text-center 3次産業
+            p サービス、小売
   #price
     .container
       .row
