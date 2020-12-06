@@ -2,8 +2,8 @@
 div
   .jumbotron.jumbotron-fluid.bg-children
     .container.text-center
-      h1.display-4 すべてのアウトローな子ども達へ
-      p.lead 「好きを見つけ、働き、稼ぐ力をつける学校」。新しいタイプの学校「わっちゃ」がまもなく開講します。
+      h1.display-5.mb-5 子どもの「好き」を知っていますか？
+      p.lead 「好きを見つけ、働き、稼ぐ力をつける学校」。<br>新しいタイプの学校「わっちゃ」がまもなく開講します。
   #intro.bg-white
     .container
       .row
@@ -20,67 +20,37 @@ div
         .col-md-4.col-sm-12
           .feature-photo
             img(src="http://placehold.jp/300x300.png", alt="alt" width="200").image-circle
-          .feature-content
-            h4.text-center １次産業
+          .feature-content.text-center
+            h4 １次産業
             p 農業、林業
         .col-md-4.col-sm-12
           .feature-photo
             img(src="http://placehold.jp/300x300.png", alt="alt" width="200").image-circle
-          .feature-content
-            h4.text-center 2次産業
+          .feature-content.text-center
+            h4 2次産業
             p 製造、建設
         .col-md-4.col-sm-12
           .feature-photo
             img(src="http://placehold.jp/300x300.png", alt="alt" width="200").image-circle
-          .feature-content
-            h4.text-center 3次産業
+          .feature-content.text-center
+            h4 3次産業
             p サービス、小売
   #price
     .container
       .row
-        .col-md-4
-          .card-deck.mb-3.text-center
+        .col-md-6.col-sm-12.offset-md-3
+          .text-center
             .card.shadow-sm
               .card-header
-                h4.my-0.font-weight-normal プラン１
-              .card-body
-                h1.card-title.pricing-card-title
-                  | ￥0 
+                h4.my-0.font-weight-normal 授業料
+              .card-body.text-center
+                h1.card-title.pricing-card-title 10,000円
+                  small （税別）
                   small.text-muted / 月
-                ul.list-unstyled.mt-3.mb-4
-                  li 10 ユーザーを含む
-                  li 2 GBのストレージ
-                  li メールサポート
-                  li ヘルプセンターへのアクセス
-                button.btn.btn-lg.btn-block.btn-primary(type="button") 今すぐ申し込む
-        .col-md-4
-          .card.shadow-sm.text-center
-            .card-header
-              h4.my-0.font-weight-normal プラン２
-            .card-body
-              h1.card-title.pricing-card-title
-                | ￥1500 
-                small.text-muted / 月
-              ul.list-unstyled.mt-3.mb-4
-                li 20 ユーザーを含む
-                li 10 GBのストレージ
-                li 優先メールサポート
-                li ヘルプセンターへのアクセス
-              button.btn.btn-lg.btn-block.btn-primary(type="button") 今すぐ申し込む
-        .col-md-4
-          .card.shadow-sm.text-center
-            .card-header
-              h4.my-0.font-weight-normal プラン１
-            .card-body
-              h1.card-title.pricing-card-title
-                | ￥2900 
-                small.text-muted / 月
-              ul.list-unstyled.mt-3.mb-4
-                li 30 ユーザーを含む
-                li 15 GBのストレージ
-                li 電話とメールのサポート
-                li ヘルプセンターへのアクセス
-              button.btn.btn-lg.btn-block.btn-primary(type="button") 今すぐ申し込む
+                ul
+                  li 入学金　10,000円
+                    small （税別）
+                button.btn.btn-lg.btn-danger(type="button") 今すぐ申し込む
   #apply
     form(action="" method="method")
       .container
